@@ -22,9 +22,9 @@ except ImportError:
 DEBUG = True
 app = Flask(__name__)
 
-GOOGLE_API_KEY = "ADD YOUR GOOGLE MAPS API KEY HERE"
+GOOGLE_API_KEY = "AIzaSyBs3ruCoJNzJ00spJf09jfoAmvyZsHzJco"
 # https://github.com/Yelp/yelp-fusion/blob/master/fusion/python/sample.py
-YELP_API_KEY = 'ADD YOUR YELP DEVELOPER API KEY HERE'
+YELP_API_KEY = 'tqUf2NyBnBGfindJFRNyn2mHR6xQc7_LT5g9LH6kAY0EiALx3WChSejplr2I5_gESYqHRcN5mbU1B9SbqD-nXNC2NbncYVYTGtVb5wYUjudWJgSOITP4vF_yp3EVXHYx'
 # API constants, you shouldn't have to change these.
 API_HOST = 'https://api.yelp.com'
 SEARCH_PATH = '/v3/businesses/search'
